@@ -1,6 +1,55 @@
-h1 {
+body {
+  background-color: #213931;
+}
+
+h1,
+h3 {
   font-family: "Josefin Sans", serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+}
+h4 {
+  top: 0;
+}
+
+header {
+  background-color: rgba(94, 124, 94, 0);
+  background-image: linear-gradient(
+      rgba(59, 198, 219, 0),
+      rgba(20, 24, 21, 0.61)
+    ),
+    url("../images/Switzerland-header.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  background-position: center;
+  padding: 80px 10px 80px 30px;
+  color: white;
+  font-size: 40px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  header {
+    font-size: 17px;
+  }
+}
+#more {
+  color: white;
+  text-decoration: none;
+  background-color: #213931a0;
+  padding: 10px;
+  border-radius: 3px;
+  font-family: "Josefin Sans", serif;
+}
+
+#more:hover {
+  color: #213931;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.673);
 }
