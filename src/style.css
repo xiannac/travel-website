@@ -20,7 +20,7 @@ h5 {
 header {
   background-color: rgba(94, 124, 94, 0);
   background-image: linear-gradient(
-      rgba(59, 198, 219, 0),
+      rgba(15, 46, 50, 0.035),
       rgba(20, 24, 21, 0.61)
     ),
     url("../images/Switzerland-header.jpeg");
@@ -28,7 +28,7 @@ header {
   background-size: cover;
   text-align: right;
   background-position: center;
-  padding: 80px 10px 80px 30px;
+  padding: 100px 10px 140px 30px;
 
   color: white;
   font-size: 40px;
@@ -220,7 +220,7 @@ footer a {
 
 @media (max-width: 900px) {
   header {
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .grid {
