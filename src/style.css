@@ -101,9 +101,11 @@ footer {
 
 a {
   color: rgba(237, 235, 235, 0.723);
+  text-decoration: none;
 }
 a:hover {
   color: rgba(128, 128, 128, 0.582);
+  text-decoration: underline;
 }
 
 .grid {
@@ -144,6 +146,11 @@ a:hover {
 
 .card-footer {
   padding: 0 30px 30px;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .btn {
@@ -204,7 +211,7 @@ footer a {
   opacity: 0.7;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   header {
     font-size: 17px;
   }
