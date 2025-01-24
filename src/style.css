@@ -111,11 +111,12 @@ a:hover {
 .grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 40px;
+  grid-gap: 20px;
 }
 
 .responsive-img {
   max-width: 100%;
+  display: block;
 }
 
 .grid-2-columns {
@@ -151,6 +152,10 @@ a:hover {
 .embed {
   width: 100%;
   aspect-ratio: 1/1;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .btn {
@@ -222,5 +227,9 @@ footer a {
 
   section {
     padding: 30px;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
