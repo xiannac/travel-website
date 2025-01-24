@@ -117,6 +117,7 @@ a:hover {
 .responsive-img {
   max-width: 100%;
   display: block;
+  border-radius: 3px;
 }
 
 .grid-2-columns {
@@ -139,6 +140,7 @@ a:hover {
   background: #213931;
   margin: 30px 0;
   box-shadow: 1px 3px 4px 0.03px;
+  border-radius: 3px;
 }
 
 .card-body {
